@@ -10,10 +10,10 @@ import RomeWinter from '../RomeWinter/RomeWinter/RomeWinter';
 const Home = () => {
     return (
         <div>
-            <NikeBlazer></NikeBlazer>
-            <Planets></Planets>
-            <Cephalopod></Cephalopod>
-            <ArtIcoke></ArtIcoke>
+            {/* <NikeBlazer></NikeBlazer> */}
+            {/* <Planets></Planets> */}
+            {/* <Cephalopod></Cephalopod> */}
+            {/* <ArtIcoke></ArtIcoke> */}
             <Grandy></Grandy>
             <Land></Land>
             <RomeWinter></RomeWinter>

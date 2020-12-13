@@ -1,0 +1,13 @@
+.bg-color{
+    background-color: #512E2C;
+}
+.right-bg{
+    border-bottom-left-radius: 40px;
+    margin-right: -100px;
+    background-color: #E6A446;
+}
+.bg-special{
+    border-top-right-radius:40px;
+    border-bottom-right-radius:40px;
+    background-color: #452528;
+}
