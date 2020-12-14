@@ -1,0 +1,17 @@
+.bg-body-color{
+    background-color: #3B3F88;
+}
+.bg-cephalopod{
+    background-image: url(../../../images/octopus/cephalopod.jpg);
+    background-repeat: no-repeat;
+    
+}
+.text-decoration{
+    font-weight: bold;
+    font-size: 150px;
+}
+.letter-c{
+    
+    z-index: 1;
+   
+}

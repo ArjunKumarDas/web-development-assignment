@@ -10,12 +10,12 @@ import RomeWinter from '../RomeWinter/RomeWinter/RomeWinter';
 const Home = () => {
     return (
         <div >
-            {/* <NikeBlazer></NikeBlazer>
+            <NikeBlazer></NikeBlazer>
             <Planets></Planets>
-            <Cephalopod></Cephalopod> */}
+            <Cephalopod></Cephalopod>
             <ArtIcoke></ArtIcoke>
-            {/* <Grandy></Grandy> */}
-            {/* <Land></Land> */}
+            <Grandy></Grandy>
+            <Land></Land>
             <RomeWinter></RomeWinter>
         </div>
     );
