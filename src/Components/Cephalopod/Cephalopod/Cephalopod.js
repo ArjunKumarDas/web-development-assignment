@@ -6,7 +6,7 @@ import { FaAlignCenter,  FaSearchengin } from 'react-icons/fa';
 const Cephalopod = () => {
     return (
         <div className="bg-body-color">
-            <Container>
+            <Container className="mt-5">
                     <Row>
                        <Navbar collapseOnSelect expand="lg" variant="dark" className="pt-5">
                             <Navbar.Brand href="#home">< img src={logo} alt="" />CEPHALOPOD</Navbar.Brand>

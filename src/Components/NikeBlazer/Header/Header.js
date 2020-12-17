@@ -2,6 +2,7 @@ import React from 'react';
 import './Header.css';
 import logo from '../../../images/shoe/nike-logo.png';
 import { Nav, Navbar } from 'react-bootstrap';
+import { FaShippingFast } from 'react-icons/fa';
 
 const Header = () => {
     return (
@@ -10,20 +11,18 @@ const Header = () => {
                <Nav>
                   <Nav.Link href="#"> <img className="logo" src={logo} alt=""></img></Nav.Link>
                </Nav>
-              
-                 {/* <Navbar.Brand href="#home"><img className="logo" src={logo} alt=""></img></Navbar.Brand> */}
                  <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                  <Navbar.Collapse id="responsive-navbar-nav">
-            <Nav className="mr-auto text-center">
-                 <Nav.Link href="#features">MAN</Nav.Link>
-                 <Nav.Link href="#pricing">WOMAN</Nav.Link>
-                 <Nav.Link href="#features">KIDS</Nav.Link>
-                 <Nav.Link href="#pricing">CUSTOMIZES</Nav.Link>
-                 <Nav.Link href="#features">FAVORITES</Nav.Link>
-            </Nav>
-          <Nav>
-             <Nav.Link href="#deets">More</Nav.Link>
-        </Nav>
+                     <Nav className="mr-auto text-center ml-5 pl-5">
+                          <Nav.Link className="ml-5 pl-5" href="#features">MAN</Nav.Link>
+                          <Nav.Link className="pl-5" href="#pricing">WOMAN</Nav.Link>
+                          <Nav.Link className="pl-5" href="#features">KIDS</Nav.Link>
+                          <Nav.Link className="pl-5" href="#pricing">CUSTOMIZES</Nav.Link>
+                          <Nav.Link className="pl-5" href="#features">FAVORITES</Nav.Link>
+                     </Nav>
+                   <Nav>
+                   <Nav.Link className="text-dark ship-cart" href="#"><FaShippingFast /></Nav.Link>
+                 </Nav>
   </Navbar.Collapse>
 </Navbar>
          </div>

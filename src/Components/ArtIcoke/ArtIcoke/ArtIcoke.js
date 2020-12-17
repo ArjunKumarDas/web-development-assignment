@@ -4,7 +4,7 @@ import { Button, Col, Container, Nav, Navbar, NavDropdown, Row } from 'react-boo
 import fruit from '../../../images/green/greenfruit.png';
 const ArtIcoke = () => {
     return (
-        <div className="color-bg">
+        <div className="color-bg mt-5">
              <Container>
                     <Navbar expand="lg" className="pt-5">
                         <Navbar.Brand href="#home" className="text-light mr-5 pr-5">ART<span>ICOKE</span></Navbar.Brand>

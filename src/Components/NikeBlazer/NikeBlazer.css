@@ -1,3 +1,66 @@
-.header{
+.header-bg{
     background-color: #0E4951;
+}
+.header-container {
+    height:100%;
+    position:relative;
+
+}
+.header-container::after {
+    height:100%;
+    position: absolute;
+    top: 0;
+    width: 37%;
+    right: 0;
+    background-color: #E1AF5A;
+}
+
+.s1-bg{
+    background-color:#4B8A7D;
+}
+
+.bg-whit{
+    background-color: azure;
+}
+
+
+
+/* .h-effect:hover {
+  position: relative;
+  margin-top: -300px;
+  margin-left: 400px;
+  cursor: pointer;
+ min-zoom: 150%;
+} */
+/* .h-effect:hover .detail{
+    display: none;
+}
+.h-effect:hover{
+    display: block;
+} */
+
+
+
+
+
+.bg-h{
+    /* background-image: url(../../images/shoe/h-bg.jpg); */
+    background-image: no-repeat;
+    position: relative;
+	min-height: 500px;
+}
+
+
+.center img {
+	position: absolute;
+	top: 50%; left: 50%;
+	transform: translate(-50%, -50%);
+	width: 30%; height: auto;
+}
+
+.test:hover  {
+    display: block;
+}
+.show {
+    display: none;
 }

@@ -8,7 +8,7 @@ import wideBottol from '../../../images/grandy/wide-bottol.png';
 import './Grandy.css';
 const Grandy = () => {
     return (
-        <div className="bg-color">
+        <div className="bg-color mt-5">
             <Container>
                 <Row className="mb-5">
                   <Col>
@@ -36,8 +36,8 @@ const Grandy = () => {
                        <Nav.Link className="text-light" href="#"><img src={wideBottol} alt="" /></Nav.Link>
                     </Nav>
                        </Col>
-                       <Col md={4} className="ml-5 bg-primary text-center">
-                          <div className="d-flex justify-content-center">
+                       <Col md={4} className="ml-5 mt-5">
+                          <div className="justify-content-center bg-off p-4 text-center">
                           <h6 className="text-light">15 % OFF</h6>
                           <p className="text-danger-">#endregion</p>
                           </div>

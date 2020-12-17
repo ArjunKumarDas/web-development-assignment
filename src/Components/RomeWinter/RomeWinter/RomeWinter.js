@@ -1,9 +1,34 @@
 import React from 'react';
+import './RomeWinter.css';
+import { Container, Nav, Navbar } from 'react-bootstrap';
 
 const RomeWinter = () => {
     return (
-        <div>
-            <h1 className="text-center mt-5 mb-5"> Q7 <br/>RomeWinter page</h1>
+        <div className="romr-bg mt-5">
+           <Container>
+           <Navbar collapseOnSelect expand="lg"  variant="dark">
+                      <Navbar.Brand href="#home">THE PLANETS</Navbar.Brand>
+                      <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+                 <Navbar.Collapse id="responsive-navbar-nav">
+                  <Nav className="mr-auto">
+                         <Nav.Link href="#">Project</Nav.Link>
+                          <Nav.Link href="#">Mercury</Nav.Link>
+                         <Nav.Link href="#">Venus</Nav.Link>
+                         <Nav.Link href="#">Earth</Nav.Link>
+                         <Nav.Link href="#">Mars</Nav.Link>
+                         <Nav.Link href="#">Jupiter</Nav.Link>
+                         <Nav.Link href="#">Saturn</Nav.Link>
+                         <Nav.Link href="#">Utanus</Nav.Link>
+                         <Nav.Link href="#">Naptune</Nav.Link>
+                 </Nav>
+                 <Nav>
+                   <Nav.Link href="#">FB</Nav.Link>
+                   <Nav.Link href="#">IN</Nav.Link>
+                   <Nav.Link href="#">FK.</Nav.Link>
+                 </Nav>
+           </Navbar.Collapse>
+         </Navbar>
+           </Container>
             
         </div>
     );
